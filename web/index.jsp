@@ -33,7 +33,7 @@
     } else {
         wsUrl = 'wss://';
     }
-    var ws = new WebSocket(wsUrl + window.location.host + "/WebApplication2/chat");
+    var ws = new WebSocket(wsUrl + window.location.host + "/ChatApp/chat");
         
     ws.onmessage = function(event) {
       var mySpan = document.getElementById("chat");
